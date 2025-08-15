@@ -1,0 +1,3 @@
+# Cron job to fetch Mercado Publico licitaciones hourly
+# Replace /path/to/repo with the absolute path to this repository and set your API key
+0 * * * * MERCADOPUBLICO_API_KEY=your_api_key /path/to/repo/run_fetch.sh
